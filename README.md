@@ -8,6 +8,8 @@ Live project: https://aero-test.vercel.app
 
 API: https://my-json-server.typicode.com/aero-frontend/test-task
 
+Strange API. Counter-intuituve work. Not simulate really messaging client-server. I tried to illustrate fail requests, but its weird for me.
+
 ## Features
 
 - [x] Non-adaprive markup, fixed width on 1280px
