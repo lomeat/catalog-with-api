@@ -1,0 +1,158 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  width: 307.5px;
+  padding: 20px 25px 30px 25px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 15px;
+
+  .stars {
+    display: block;
+    height: 100%;
+  }
+
+  .star {
+    margin-left: 5px;
+    &:first-child {
+      margin: 0;
+    }
+
+    &-yellow {
+      path {
+        fill: #ffcb31;
+      }
+    }
+
+    &-gray {
+      path {
+        fill: #dfdfdf;
+      }
+    }
+  }
+
+  .article {
+    color: #7e7e7e;
+    font-size: 12px;
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 300;
+  }
+}
+
+.image {
+  height: 184px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.in-stock {
+  padding-top: 20px;
+  color: #32ca00;
+
+  span {
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+  }
+}
+
+.title {
+  color: #333333;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding: 10px 0 15px 0;
+}
+
+.description {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+
+  label {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 300;
+    &:first-child {
+      margin: 0;
+    }
+
+    .name {
+      color: #7e7e7e;
+    }
+
+    .value {
+      color: #333333;
+      margin-left: 10px;
+    }
+  }
+}
+
+.price {
+  color: #333333;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.bonuses {
+  padding: 5px 0 15px 0;
+  color: #3e8bdc;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 300;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-other {
+    display: flex;
+    align-items: center;
+  }
+
+  .button {
+    border: 0;
+    cursor: pointer;
+
+    &-cart {
+      width: 102px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #0284c6;
+
+      span {
+        margin-left: 10px;
+        color: #fff;
+        font-size: 14px;
+        line-height: 17px;
+        font-family: "ProximaNova", sans-serif;
+        font-weight: 300;
+      }
+    }
+
+    &-other {
+      background: transparent;
+      padding: 0;
+    }
+  }
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}

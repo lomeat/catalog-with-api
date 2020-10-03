@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 307.5px;
+  background: #fff;
+  padding: 30px;
+  margin-left: 10px;
+  align-self: flex-start;
+}
+
+.button {
+  width: 248px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border: 0;
+  background: #f7f7f7;
+  cursor: pointer;
+  transition: 0.1s ease;
+  &:hover {
+    box-shadow: inset 0px 30px 10px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  &-clear {
+    margin-top: 10px;
+    background: #f7f7f7;
+    color: #000;
+  }
+
+  &-show {
+    color: #fff;
+    background: #0284c6;
+  }
+}
+
+.manufacturer {
+  font-family: "ProximaNova";
+  font-size: 17px;
+  padding-top: 30px;
+  padding-bottom: 14px;
+}
+
+.filters-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
